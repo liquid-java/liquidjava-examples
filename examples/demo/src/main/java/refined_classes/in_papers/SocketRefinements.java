@@ -1,4 +1,5 @@
-package refined_classes;
+// Searching State Space
+package refined_classes.in_papers;
 
 import liquidjava.specification.*;
 import java.net.SocketAddress;

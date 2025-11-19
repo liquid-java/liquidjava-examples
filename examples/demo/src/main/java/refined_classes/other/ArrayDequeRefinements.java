@@ -1,4 +1,4 @@
-package refined_classes;
+package refined_classes.other;
 
 import liquidjava.specification.RefinementAlias;
 import liquidjava.specification.Refinement;

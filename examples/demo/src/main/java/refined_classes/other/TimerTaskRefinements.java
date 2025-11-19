@@ -1,6 +1,4 @@
-package refined_classes;
-
-import java.util.TimerTask;
+package refined_classes.other;
 
 import liquidjava.specification.ExternalRefinementsFor;
 import liquidjava.specification.Ghost;

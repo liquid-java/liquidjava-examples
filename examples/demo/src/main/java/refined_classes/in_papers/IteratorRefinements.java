@@ -1,4 +1,5 @@
-package refined_classes;
+// Protocols in the wild
+package refined_classes.in_papers;
 
 import liquidjava.specification.*;
 import java.util.function.Consumer;

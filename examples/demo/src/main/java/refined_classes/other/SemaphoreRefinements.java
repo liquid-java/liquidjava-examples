@@ -1,4 +1,4 @@
-package refined_classes;
+package refined_classes.other;
 
 
 import java.util.concurrent.TimeUnit;

@@ -1,12 +1,9 @@
-package refined_classes;
+// Protocols in the wild
+package refined_classes.in_papers;
 
 import liquidjava.specification.*;
 import java.util.Locale;
-import java.awt.Rectangle;
-import java.awt.Point;
 import java.awt.Dimension;
-import javax.imageio.ImageTypeSpecifier;
-import javax.imageio.IIOParamController;
 
 @ExternalRefinementsFor("javax.imageio.ImageWriteParam")
 @Ghost("int tilingMode")

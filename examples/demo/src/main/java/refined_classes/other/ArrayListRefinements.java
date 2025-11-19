@@ -1,4 +1,4 @@
-package refined_classes;
+package refined_classes.other;
 import java.util.ArrayList;
 import liquidjava.specification.Refinement;
 import liquidjava.specification.StateRefinement;
