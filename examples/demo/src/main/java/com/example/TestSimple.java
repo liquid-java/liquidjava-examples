@@ -11,7 +11,7 @@ public class TestSimple {
 
     public static void main( String[] args ){
         
-        @Refinement("a > 0")
-        int a = -1;
+        // @Refinement("a > 0")
+        // int a = -1;
     }
 }
