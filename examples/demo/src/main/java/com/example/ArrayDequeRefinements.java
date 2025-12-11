@@ -23,8 +23,8 @@ public interface ArrayDequeRefinements<E> {
 	@StateRefinement(from="size(this) > 0", to = "size(this) == (size(old(this)))")
 	public E getLast();
 
-	@StateRefinement(from="size(this)> 0", to="size(this) == (size(old(this)) - 1)")
-	public void remove();
+	// @StateRefinement(from="size(this)> 0", to="size(this) == (size(old(this)) - 1)")
+	// public void remove();
 
 	@StateRefinement(from="size(this)> 0", to="size(this) == (size(old(this)) - 1)")
 	public E pop();
