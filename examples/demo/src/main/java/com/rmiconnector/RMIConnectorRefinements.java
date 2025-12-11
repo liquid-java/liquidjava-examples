@@ -25,6 +25,7 @@ public interface RMIConnectorRefinements {
 
     // ####### Changing states ######## //
     @StateRefinement(from="start(this)",to="connected(this)")
+    @StateRefinement(from="connected(this)")
     public void connect();
 
     @StateRefinement(from="start(this)",to="connected(this)")
