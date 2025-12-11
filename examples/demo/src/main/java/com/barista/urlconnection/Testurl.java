@@ -1,23 +1,31 @@
 package com.barista.urlconnection;
 
 import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.net.URLConnection;
+import java.util.ArrayList;
+import java.util.Timer;
 
-public class Testurl {
 
-    void test(){
+class Testurl {
+    void test() throws URISyntaxException, IOException {
 
-        URLExt u = new URLExt();
-        u.setDoInput(false); // should not be an error
-        u.getContent(); // should be an error
+        URLExt u = new URLExt(new URI("http://example.com").toURL());
+        // u.setDoInput(false); // should not be an error
+        // u.getContent(); // should be an error
+
+        Timer t = new Timer();
     }
-    
+
 }
+
 
 class URLExt extends URLConnection{
 
-    public URLExt(){
-        super(null);
+    public URLExt(URL url){
+        super(url);
     }
 
     @Override

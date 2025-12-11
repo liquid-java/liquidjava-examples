@@ -60,7 +60,6 @@ public interface URLConnectionRefinements {
     public int getContentLength();
     
     @StateRefinement(from="connected(this)")
-    @StateRefinement(from="connected(this)")
     @Refinement("_ >= -1")
     public long getContentLengthLong();
     @StateRefinement(from="connected(this)")
